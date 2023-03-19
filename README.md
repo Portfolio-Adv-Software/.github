@@ -9,7 +9,7 @@ The group project will be done by our group existing of five students and one pr
 
 
 ### Individual project - Kwetter
-The invidiual project is the sensible default project "Kwetter" 
+The invidiual project is the sensible default project "Kwetter" .
 
 
 ### Start
@@ -58,7 +58,7 @@ You deliver professional products according to planning, which is the result of 
 This sprint I spent time orientating on which technologies fit and are suited for our specific enterprise needs. A lot of work went into the project plan and the general exploration of our group project's needs.
 
 1.2: Sprint 1
-I wrote a researchplan for my individual research that will help the group project ass well as my individual project. This plan can be found [here](TBD).
+I made a researchplan that should be relevant to both my individual project and the group project. This plan can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/annotated-ResearchPlan-KoenEvers.pdf).
 
 
 
@@ -125,7 +125,7 @@ Besides functionality, you develop the architecture of enterprise software based
 I spent time looking at which technologies to include into our techstack. I ended up proposing Go, gRPC and RabbitMQ as some of our significant technologies. I am currently working on a document to justify these choices.
 
 1.2: Sprint 1
-For my individual project I created a C2 model which can be found [here](TBD). 
+For my individual project I created a C2 model which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/C2%20Individueel.png). 
 I also spent some time working on a gRPC and Protobuf demo which can be found [here](TBD).
 Finally I made a small Angular demo to get used to this front-end. This can be found [here](TBD).
 
