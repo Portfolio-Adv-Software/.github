@@ -1,4 +1,5 @@
 # Reading guide
+# Koen Evers
 
 ## Introduction
 This document is created to help the reader use this document to easily find certain products and sum up all the context. The reading guide is written for my personal portfolio to prove my level of proficiency on some enterprise software engineering topics. There are nine learning outcomes that are related to this topic and need proof of my knowledge I will be gathering during this semester. To proof this I will be working on two projects: a group and individual project. 
