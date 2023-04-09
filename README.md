@@ -2,14 +2,18 @@
 # Koen Evers
 
 ## Introduction
-This document is created to help the reader use this document to easily find certain products and sum up all the context. The reading guide is written for my personal portfolio to prove my level of proficiency on some enterprise software engineering topics. There are nine learning outcomes that are related to this topic and need proof of my knowledge I will be gathering during this semester. To proof this I will be working on two projects: a group and individual project. 
+This is the reading guide to my portfolio. This is still a WIP. The aim of this document is to direct you to what I've done and explain why/what I made.
+If there are any questions feel free to let me know through teams, canvas or let me know when I'm on site.
 
 ### Group project - Stockbrood
 The group project will be done by our group existing of five students and one product owner (PO). The PO is a trader on multiple markets and is looking for a way to automate testing his trading strategies. Everything about this project can be found [here](https://github.com/S-A-RB05).
 
 
 ### Individual project - Kwetter
-The invidiual project is the sensible default project "Kwetter" .
+The invidiual project is the sensible default project "Kwetter".
+
+### Individual Proof of Concepts
+To acquire more skills I will be making small prototypes/Proof of concepts. These can be found in a monorepo [here](https://github.com/Portfolio-Adv-Software/PoCs)
 
 
 ### Start
