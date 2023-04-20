@@ -67,7 +67,7 @@ You acquire skills required for your future career. You are aware of multiple ca
 #### Substantiation
 
 1.1: Sprint 1
-I am looking into locations for graduation internships at the moment and have already written to multiple companies. More details will be in [this document](TBD) which should help to support this learning outcome.
+I am looking into locations for graduation internships at the moment and have already written to multiple companies. More details will be in [this document](https://github.com/Portfolio-Adv-Software/.github/blob/main/Personal%20Leadership.md) which should help to support this learning outcome.
 
 1.2: Sprint 2
 I have updated my plans a bit more.
