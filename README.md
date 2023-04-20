@@ -3,7 +3,7 @@
 
 ## Introduction
 This is the reading guide to my portfolio. This is still a WIP. The aim of this document is to direct you to what I've done and explain why/what I made.
-If there are any questions feel free to let me know through teams, canvas or let me know when I'm on site.
+If there are any questions feel free to let me know through teams, canvas or let me know when I'm in Eindhoven.
 
 ### Group project - Stockbrood
 The group project will be done by our group existing of five students and one product owner (PO). The PO is a trader on multiple markets and is looking for a way to automate testing his trading strategies. Everything about this project can be found [here](https://github.com/S-A-RB05).
@@ -25,13 +25,7 @@ To acquire more skills I will be making small prototypes/Proof of concepts. Thes
 Scale for every learning outcomes: undefined, orienting, beginning, proficient, advanced.
 
 ### Learning outcome 1 - Future-oriented Organization
-You develop and deploy enterprise software, both individually and as a team, that fits the current question and needs of your stakeholders. Your final solution is designed with the possibility for future further development. 
-
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
-| 1.2 | Sprint 1 | Individual project | Orienting |
+You develop and deploy enterprise software, both individually and as a team, that fits the current question and needs of your stakeholders. Your final solution is designed with the possibility for future further development.
 
 #### Substantiation
 
@@ -39,8 +33,10 @@ You develop and deploy enterprise software, both individually and as a team, tha
 This sprint I spent time orientating on which technologies fit and are suited for our specific enterprise needs. A lot of work went into the project plan and the general exploration of our group project's needs.
 
 1.2: Sprint 1
-I made a C2 Diagram and created a demo for Angular and the use of grpc with protobuf.
+I made a C2 Diagram and created a demo for Angular and the use of grpc with protobuf. Furthermore I helped my team create userstories for Stockbrood.
 
+1.3: Sprint 2
+I made a document with my group in which we justify the technological choices we made for our project. I am also deploying my services in the cloud and preparing them to be scalable.
 
 
 
@@ -48,13 +44,7 @@ I made a C2 Diagram and created a demo for Angular and the use of grpc with prot
 
 
 ### Learning Outcome 2 - Investigative Problem-Solving
-You deliver professional products according to planning, which is the result of solving problems in a structured and methodical approach. You demonstrate a critical view towards your own and other people’s work. 
-
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
-| 1.2 | Sprint 1 | Individual project | Orienting |
+You deliver professional products according to planning, which is the result of solving problems in a structured and methodical approach. You demonstrate a critical view towards your own and other people’s work.
 
 #### Substantiation
 
@@ -62,24 +52,25 @@ You deliver professional products according to planning, which is the result of 
 This sprint I spent time orientating on which technologies fit and are suited for our specific enterprise needs. A lot of work went into the project plan and the general exploration of our group project's needs.
 
 1.2: Sprint 1
-I made a researchplan that should be relevant to both my individual project and the group project. This plan can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/annotated-ResearchPlan-KoenEvers.pdf).
+I made a research plan that should be relevant to both my individual project and the group project. This plan can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/annotated-ResearchPlan-KoenEvers.pdf).
+
+1.3: Sprint 2
+I have been gathering knowledge on my research project. and hope to conclude it in sprint 3 or 4.
 
 
 
 
 
 ### Learning Outcome 3 - Personal Leadership
-You acquire skills required for your future career. You are aware of multiple career paths and can reflect which ones fit best, considering your (potential) skills and ambitions. You are aware of developments in software engineering and can signal trends. 
-
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 1 | Individual project | Orienting |
+You acquire skills required for your future career. You are aware of multiple career paths and can reflect which ones fit best, considering your (potential) skills and ambitions. You are aware of developments in software engineering and can signal trends.
 
 #### Substantiation
 
 1.1: Sprint 1
 I am looking into locations for graduation internships at the moment and have already written to multiple companies. More details will be in [this document](TBD) which should help to support this learning outcome.
+
+1.2: Sprint 2
+I have updated my plans a bit more.
 
 
 
@@ -95,10 +86,6 @@ I am looking into locations for graduation internships at the moment and have al
 ### Learning Outcome 4 - Targeted Interaction
 You use appropriate communication considering your role in a team, your audience and the medium to convey your message and results of your software development process.
 
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
 
 #### Substantiation
 
@@ -106,6 +93,11 @@ You use appropriate communication considering your role in a team, your audience
 We do stand ups to inform eachother what we did and will be working on. We also created a Jira board with userstories that have story points assigned to them which are based off of the planning poker session we did as a group.
 Finally we made a group contract so that we have a fallback document for when normal cooperation is no longer possible.
 
+We also ended our sprint with peer feedback.
+
+1.2: Sprint 1
+We improved our standups with feedback from our semestercoach. We updated the userstories on our Jira board based on our stakeholder feedback.
+We made sure to create tasks for our userstories and keep them updated during the sprint.
 
 
 
@@ -115,13 +107,7 @@ Finally we made a group contract so that we have a fallback document for when no
 
 
 ### Learning Outcome 5 - Scalable Architectures
-Besides functionality, you develop the architecture of enterprise software based on quality attributes. You especially consider attributes most relevant to enterprise contexts with high volume data and events. You design your architecture with future adaptation in mind. Your development environment supports this by being able to independently deploy and monitor the running parts of your application. 
-
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Orienting |
-| 1.2 | Sprint 1 | Individual project | Orienting |
+Besides functionality, you develop the architecture of enterprise software based on quality attributes. You especially consider attributes most relevant to enterprise contexts with high volume data and events. You design your architecture with future adaptation in mind. Your development environment supports this by being able to independently deploy and monitor the running parts of your application.
 
 #### Substantiation
 
@@ -141,12 +127,6 @@ Finally I made a small Angular demo to get used to this front-end. This can be f
 ### Learning Outcome 6 - Development and Operations (DevOps)
 You set up environments and tools which support your chosen software development process. You provide governance for all stakeholders’ goals. You aim for as much automation as possible, to enable short release times and high software quality.
 
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Undefined |
-| 1.2 | Sprint 1 | Individual project | Undefined |
-
 #### Substantiation
 
 1.1: Sprint 0
@@ -162,12 +142,6 @@ You set up environments and tools which support your chosen software development
 ### Learning Outcome 7 - Cloud Services
 You can explain what a cloud platform provider is and can deploy (parts of) your application to a cloud platform. You integrate cloud services (for example: Serverless computing, cloud storage, container management) into your enterprise application, and can explain the added value of these cloud services for your application.
 
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Undefined |
-| 1.2 | Sprint 1 | Individual project | Undefined |
-
 #### Substantiation
 
 1.1: Sprint 0
@@ -178,13 +152,7 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 
 
 ### Learning Outcome 8 - Security by Design
-You investigate how to minimize security risks for your application, and you incorporate best practices in your whole software development process. 
-
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Undefined |
-| 1.2 | Sprint 1 | Individual project | Undefined |
+You investigate how to minimize security risks for your application, and you incorporate best practices in your whole software development process.
 
 #### Substantiation
 
@@ -197,12 +165,6 @@ You investigate how to minimize security risks for your application, and you inc
 
 ### Learning Outcome 9 – Distributed Data
 You are aware of specific data requirements for enterprise systems. You apply best practices for distributed data during your whole development process, both for non-functional and functional requirements. You especially take legal and ethical issues into consideration.
-
-#### Score
-| Id | Description | Type | Level |
-|---|---|---|---|
-| 1.1 | Sprint 0 | Group project | Undefined |
-| 1.2 | Sprint 1 | Individual project | Undefined |
 
 #### Substantiation
 
