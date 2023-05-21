@@ -143,11 +143,11 @@ Finally I made a small Angular demo to get used to this front-end. This can be f
 1.3: Sprint 2
 I created a monorepo for my project with a UserService and TrendService. The two services can communicate with eachother through RabbitMQ with protobuf messages, these messages are in a binary format and are very quickly encoded and decoded which is great for microservices. The two services use MongoDB as their datastore. MongoDB and RabbitMQ are already online and hosted in the cloud.
 
-![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/643ac598-86e0-4b07-8ed0-1dfbb99a745a)
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/e484d3a7-1343-4b09-acaa-d86dfece4f66)
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/b514f1a2-6285-4eaf-a0e5-a30bb210dfd5)
 
-1.4:
+1.4: Sprint 3
 I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I have also added a basic accountservice and gateway service which is still WIP. I plan to automaticaly deploy to an Azure kubernetes environment.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/73a1cdd8-4bfa-41c0-a249-a377e75b98b4)
@@ -163,12 +163,20 @@ You set up environments and tools which support your chosen software development
 #### Substantiation
 
 1.1: Sprint 0
-
+Did not do much for DevOps yet.
 
 1.2: Sprint 1
+Helped group with setting up ci/cd
 
+1.3: Sprint 2
+Created Dockerfile.
 
+1.4: Sprint 3
+Setup a pipeline to automaticaly build and push images to a dockerhub repo
 
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/99a3b058-4cdd-4e7d-8315-518e0a7720a9)
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/73a1cdd8-4bfa-41c0-a249-a377e75b98b4)
 
 
 
@@ -182,7 +190,18 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 
 1.2: Sprint 1
 
+1.3: Sprint 2
+I setup a RabbitMQ environment in the cloud and also setup a MongoDB in the cloud.
 
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/87cade00-9a56-437f-b773-ee88b2c3d0ed)
+
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/79c51c45-ed7c-48c0-a9b5-5abf55fe93e3)
+
+1.4: Sprint 3
+I am now automaticaly pushing images to dockerhub and have setup my account to get started with deploying to azure.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/d66b8308-a3f1-4b58-9656-400c8420760e)
 
 ### Learning Outcome 8 - Security by Design
 You investigate how to minimize security risks for your application, and you incorporate best practices in your whole software development process.
