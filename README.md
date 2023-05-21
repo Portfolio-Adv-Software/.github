@@ -101,11 +101,24 @@ We do stand ups to inform eachother what we did and will be working on. We also 
 Finally we made a group contract so that we have a fallback document for when normal cooperation is no longer possible.
 
 We also ended our sprint with peer feedback.
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/cd1916d6-dcaa-435f-b549-12aeed87b96f)
+
 
 1.2: Sprint 1
 We improved our standups with feedback from our semestercoach. We updated the userstories on our Jira board based on our stakeholder feedback.
 We made sure to create tasks for our userstories and keep them updated during the sprint.
 
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/226dc8f7-2b96-4aaf-858f-96f100f20e61)
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/e4aa1525-5644-4f08-b14c-363e1b25b88c)
+
+1.3: Sprint 2
+We improved our deliveries to the stakeholder by clearly showing what we worked on, what was completed and what was not done yet and why.
+
+1.4: Sprint 3
+Our deliveries are going well and we are now showing more of our progress instead of just telling about our progress.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/0bef5017-cd52-4c6b-aeea-849ae69e4f89)
 
 
 # ===================================
@@ -126,6 +139,18 @@ I spent time looking at which technologies to include into our techstack. I ende
 For my individual project I created a C2 model which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/C2%20Individueel.png). 
 I also spent some time working on a gRPC and Protobuf demo which can be found [here](TBD).
 Finally I made a small Angular demo to get used to this front-end. This can be found [here](TBD).
+
+1.3: Sprint 2
+I created a monorepo for my project with a UserService and TrendService. The two services can communicate with eachother through RabbitMQ with protobuf messages, these messages are in a binary format and are very quickly encoded and decoded which is great for microservices. The two services use MongoDB as their datastore. MongoDB and RabbitMQ are already online and hosted in the cloud.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/643ac598-86e0-4b07-8ed0-1dfbb99a745a)
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/b514f1a2-6285-4eaf-a0e5-a30bb210dfd5)
+
+1.4:
+I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I have also added a basic accountservice and gateway service which is still WIP. I plan to automaticaly deploy to an Azure kubernetes environment.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/73a1cdd8-4bfa-41c0-a249-a377e75b98b4)
 
 
 
