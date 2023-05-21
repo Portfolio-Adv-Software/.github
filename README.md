@@ -33,10 +33,13 @@ You develop and deploy enterprise software, both individually and as a team, tha
 This sprint I spent time orientating on which technologies fit and are suited for our specific enterprise needs. A lot of work went into the project plan and the general exploration of our group project's needs.
 
 1.2: Sprint 1
-I made a C2 Diagram and created a demo for Angular and the use of grpc with protobuf. Furthermore I helped my team create userstories for Stockbrood.
+I made a [C2 Diagram](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/C2%20Individueel.png) and created a demo for Angular and the use of grpc with protobuf. Furthermore I helped my team create userstories for Stockbrood.
 
 1.3: Sprint 2
-I made a document with my group in which we justify the technological choices we made for our project. I am also deploying my services in the cloud and preparing them to be scalable.
+I made a [document](https://github.com/S-A-RB05/.github/blob/main/profile/Technology%20justification.md) with my group in which we justify the technological choices we made for our project. I am also deploying my services in the cloud and preparing them to be scalable.
+
+1.4: Sprint 3
+I am thinking about how we can arrange the code in our group project to be easier to work on and to be better transferable to new teams. This involves ensuring proper decoupling of code.
 
 
 
@@ -55,7 +58,7 @@ This sprint I spent time orientating on which technologies fit and are suited fo
 I made a research plan that should be relevant to both my individual project and the group project. This plan can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/annotated-ResearchPlan-KoenEvers.pdf).
 
 1.3: Sprint 2
-I have been gathering knowledge on my research project. and hope to conclude it in sprint 3 or 4.
+I have been gathering knowledge on my research project. and hope to conclude it in sprint 3 or 4. I also researched what the tech stack for my group project should look like and substantiated why in this [document](https://github.com/S-A-RB05/.github/blob/main/profile/Technology%20justification.md)
 
 
 
@@ -70,7 +73,11 @@ You acquire skills required for your future career. You are aware of multiple ca
 I am looking into locations for graduation internships at the moment and have already written to multiple companies. More details will be in [this document](https://github.com/Portfolio-Adv-Software/.github/blob/main/Personal%20Leadership.md) which should help to support this learning outcome.
 
 1.2: Sprint 2
-I have updated my plans a bit more.
+I have updated my plans a bit more and looked at more prospective internships and future career paths.
+
+1.3 Sprint 3
+I have contacted multiple companies to ask for a meeting to explore the company culture and see if they are interesting places for me to be in the future. I have also started thinking about potential headhunters with whom I can build a professional relationship with.
+
 
 
 
