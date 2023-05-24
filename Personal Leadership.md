@@ -25,6 +25,7 @@ For my Software internship I have a few companies I'd be interested in.
 3. SRON: Dutch space research institute. Often has projects they need people for, an interesting field to get started in.
 4. De Twee Snoeken: An Architects company near me that builds this our own design software, could be an interesting field.
 5. NS: dutch railway company which has interesting job openings.
+6. Pipple: Eindhoven based data science company recommended to me by a friend in the industry. They are looking for software engineers to help build their data science ambitions.
 
 I have emailed most of these companies to see if they are willing to meet with me so that I can explore what kind of company they are. I hope that this will be happening over summer.
 
