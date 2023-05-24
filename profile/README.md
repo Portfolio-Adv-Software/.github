@@ -133,18 +133,17 @@ I spent time looking at which technologies to include into our techstack. I ende
 
 1.2: Sprint 1
 For my individual project I created a C2 model which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/C2%20Individueel.png). 
-I also spent some time working on a gRPC and Protobuf demo which can be found [here](TBD).
-Finally I made a small Angular demo to get used to this front-end. This can be found [here](TBD).
 
 1.3: Sprint 2
-I created a monorepo for my project with a UserService and TrendService. The two services can communicate with eachother through RabbitMQ with protobuf messages, these messages are in a binary format and are very quickly encoded and decoded which is great for microservices. The two services use MongoDB as their datastore. MongoDB and RabbitMQ are already online and hosted in the cloud.
+I created a monorepo for my project with a TweetService and TrendService. The two services can communicate with eachother through RabbitMQ with protobuf messages, these messages are in a binary format and are very quickly encoded and decoded which is great for microservices. The two services use MongoDB as their datastore. MongoDB and RabbitMQ are already online and hosted in the cloud.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/e484d3a7-1343-4b09-acaa-d86dfece4f66)
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/b514f1a2-6285-4eaf-a0e5-a30bb210dfd5)
 
 1.4: Sprint 3
-I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I have also added a basic accountservice and gateway service which is still WIP. I plan to automaticaly deploy to an Azure kubernetes environment.
+I added a AccountService, initial Gateway and AuthService to my project.
+I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I plan to automaticaly deploy to an Azure kubernetes environment.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/73a1cdd8-4bfa-41c0-a249-a377e75b98b4)
 
