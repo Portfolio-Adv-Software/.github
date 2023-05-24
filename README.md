@@ -208,6 +208,10 @@ You investigate how to minimize security risks for your application, and you inc
 
 1.2: Sprint 1
 
+1.3: Sprint 2
+
+1.4: Sprint 3
+I created dockerhub secrets to create a pipeline that pushes images to a dockerhub repo. I also hid nearly all hard-coded credentials for databases and messaging platforms in .env files and setup my git pipeline to properly utilise these credentials with repo secrets and environment secrets.
 
 
 
@@ -221,10 +225,11 @@ You are aware of specific data requirements for enterprise systems. You apply be
 
 1.2: Sprint 1
 
+1.3: Sprint 2
+I have multiple microservices using grpc that have their own Mongodb, because of the microservice architecture I paid attention to what database needs to be stored in duplicate across different services. Some of these microservices can communicate with eachother through rabbitmq.
 
-
-
-
+1.4: Sprint 3
+I am looking into setting up a RabbitMQ queue to start a transaction which lets a User delete all of their data. To do so I am refactoring my gateway and datamodels.
 
 
 ## Reflection
