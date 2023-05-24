@@ -10,14 +10,10 @@ The group project will be done by our group existing of five students and one pr
 
 
 ### Individual project - Kwetter
-The invidiual project is the sensible default project "Kwetter".
-
-### Individual Proof of Concepts
-To acquire more skills I will be making small prototypes/Proof of concepts. These can be found in a monorepo [here](https://github.com/Portfolio-Adv-Software/PoCs)
-
+The invidiual project is the sensible default project "Kwetter" which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter). 
 
 ### Start
-<Explain your starting knowledge, experience, interests and what you would like to learn and achieve this semester>.
+I would like to learn about microservices, cloudhosting, docker and messaging in this semester. During my internship I got to experience working within microservices and make code function with messaging but I did not get the chance to design these systems. I'm eager to get personal experience with this.
 
 
 
