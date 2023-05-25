@@ -126,6 +126,10 @@ Our deliveries are going well and we are now showing more of our progress instea
 ### Learning Outcome 5 - Scalable Architectures
 Besides functionality, you develop the architecture of enterprise software based on quality attributes. You especially consider attributes most relevant to enterprise contexts with high volume data and events. You design your architecture with future adaptation in mind. Your development environment supports this by being able to independently deploy and monitor the running parts of your application.
 
+### Score
+
+Beginning
+
 #### Substantiation
 
 1.1: Sprint 0
@@ -155,6 +159,10 @@ I have created Dockerfiles for my services and setup a pipeline on github to aut
 ### Learning Outcome 6 - Development and Operations (DevOps)
 You set up environments and tools which support your chosen software development process. You provide governance for all stakeholders’ goals. You aim for as much automation as possible, to enable short release times and high software quality.
 
+### Score
+
+Beginning
+
 #### Substantiation
 
 1.1: Sprint 0
@@ -165,6 +173,7 @@ Helped group with setting up ci/cd
 
 1.3: Sprint 2
 Created Dockerfile.
+I have also setup SonarCloud to do code quality testing.
 
 1.4: Sprint 3
 Setup a pipeline to automaticaly build and push images to a dockerhub repo
@@ -177,6 +186,10 @@ Setup a pipeline to automaticaly build and push images to a dockerhub repo
 
 ### Learning Outcome 7 - Cloud Services
 You can explain what a cloud platform provider is and can deploy (parts of) your application to a cloud platform. You integrate cloud services (for example: Serverless computing, cloud storage, container management) into your enterprise application, and can explain the added value of these cloud services for your application.
+
+### Score
+
+Beginning
 
 #### Substantiation
 
@@ -201,6 +214,10 @@ I am now automaticaly pushing images to dockerhub and have setup my account to g
 ### Learning Outcome 8 - Security by Design
 You investigate how to minimize security risks for your application, and you incorporate best practices in your whole software development process.
 
+### Score
+
+Beginning
+
 #### Substantiation
 
 1.1: Sprint 0
@@ -216,6 +233,10 @@ I created dockerhub secrets to create a pipeline that pushes images to a dockerh
 
 ### Learning Outcome 9 – Distributed Data
 You are aware of specific data requirements for enterprise systems. You apply best practices for distributed data during your whole development process, both for non-functional and functional requirements. You especially take legal and ethical issues into consideration.
+
+### Score
+
+Beginning
 
 #### Substantiation
 
