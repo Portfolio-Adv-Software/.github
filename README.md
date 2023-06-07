@@ -56,6 +56,12 @@ I made a research plan that should be relevant to both my individual project and
 1.3: Sprint 2
 I have been gathering knowledge on my research project. and hope to conclude it in sprint 3 or 4. I also researched what the tech stack for my group project should look like and substantiated why in this [document](https://github.com/S-A-RB05/.github/blob/main/profile/Technology%20justification.md)
 
+1.4: Sprint 3
+I started making prototypes and combining a lot of my research documents together into one. I believe I am nearly done and will finish this in sprint 4.
+
+1.5 Sprint 4
+I finished my research, which can be found [here](https://github.com/Portfolio-Adv-Software/.github/blob/main/TracingResearch.pdf), and prototype, which can be found [here](https://github.com/Portfolio-Adv-Software/TracingPoC), to support this research.
+
 
 
 
