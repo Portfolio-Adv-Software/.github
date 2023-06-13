@@ -143,7 +143,6 @@ You use appropriate communication considering your role in a team, your audience
 
 1.1: Sprint 0
 
-
 We do stand ups to inform eachother what we did and will be working on. We also created a Jira board with userstories that have story points assigned to them which are based off of the planning poker session we did as a group.
 Finally we made a group contract so that we have a fallback document for when normal cooperation is no longer possible.
 
@@ -152,7 +151,6 @@ We also ended our sprint with peer feedback.
 
 
 1.2: Sprint 1
-
 
 We improved our standups with feedback from our semestercoach. We updated the userstories on our Jira board based on our stakeholder feedback.
 We made sure to create tasks for our userstories and keep them updated during the sprint.
@@ -163,11 +161,9 @@ We made sure to create tasks for our userstories and keep them updated during th
 
 1.3: Sprint 2
 
-
 We improved our deliveries to the stakeholder by clearly showing what we worked on, what was completed and what was not done yet and why.
 
 1.4: Sprint 3
-
 
 Our deliveries are going well and we are now showing more of our progress instead of just telling about our progress.
 
@@ -175,11 +171,9 @@ Our deliveries are going well and we are now showing more of our progress instea
 
 1.5 Sprint 4
 
-
 Our sprints keep improving and we are moving to handover.
 
 1.6 Sprint 5
-
 
 Handover.
 
@@ -196,11 +190,9 @@ Besides functionality, you develop the architecture of enterprise software based
 
 1.1: Sprint 0
 
-
 I spent time looking at which technologies to include into our techstack. I ended up proposing Go, gRPC and RabbitMQ as some of our significant technologies. I am currently working on a document to justify these choices.
 
 1.2: Sprint 1
-
 
 For my individual project I created a C2 model which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/C2%20Individueel.png). 
 I also spent some time working on a gRPC and Protobuf demo which can be found [here](TBD).
@@ -208,8 +200,7 @@ Finally I made a small Angular demo to get used to this front-end. This can be f
 
 1.3: Sprint 2
 
-
-I created a monorepo for my project with a UserService and TrendService. The two services can communicate with eachother through RabbitMQ with protobuf messages, these messages are in a binary format and are very quickly encoded and decoded which is great for microservices. The two services use MongoDB as their datastore. MongoDB and RabbitMQ are already online and hosted in the cloud.
+I created a monorepo for my project with a TweetService and TrendService. The two services can communicate with eachother through RabbitMQ with protobuf messages, these messages are in a binary format and are very quickly encoded and decoded which is great for microservices. The two services use MongoDB as their datastore. MongoDB and RabbitMQ are already online and hosted in the cloud.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/e484d3a7-1343-4b09-acaa-d86dfece4f66)
 
@@ -217,18 +208,15 @@ I created a monorepo for my project with a UserService and TrendService. The two
 
 1.4: Sprint 3
 
-
-I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I have also added a basic authservice and gateway service which is still WIP. I plan to automaticaly deploy to an Azure kubernetes environment.
+I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I have also added a basic authservice, userservice and gateway service which is still WIP. I plan to automaticaly deploy to an Azure kubernetes environment.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/73a1cdd8-4bfa-41c0-a249-a377e75b98b4)
 
 1.5: Sprint 4
 
-
 I further implemented and refactored my gateway and authservice. the gateway is capable of handling grpc and http requests though http could use some more support. I do not consider further http support a priority at the moment however.
 
 1.6 Sprint 5
-
 
 I have deployed my application to the cloud! It is now running and accessible on Azure.
 I have made a resource mapping document which should substantiate some of my load testing. This document can be found [here]().
@@ -248,21 +236,17 @@ You set up environments and tools which support your chosen software development
 
 1.1: Sprint 0
 
-
 Did not do much for DevOps yet.
 
 1.2: Sprint 1
-
 
 Helped group with setting up ci/cd
 
 1.3: Sprint 2
 
-
 Created Dockerfile.
 
 1.4: Sprint 3
-
 
 Setup a pipeline to automaticaly build and push images to a dockerhub repo
 
@@ -272,29 +256,36 @@ Setup a pipeline to automaticaly build and push images to a dockerhub repo
 
 1.5 Sprint 4
 
-
 I added improved pipelines to my microservices. They now check specific subdirectories for changes and only that which has been changed. This is useful as I run a monorepo. 
+
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/12758bdb-0a17-41ca-a2c6-edc0609858c8)
 
-
 I can now manually trigger my gitactions. 
+
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/f51cbfc2-accc-44fc-925f-6eafde02735e)
 
-
 I also added a sonarcloud code quality check.
-![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/1fbc6b34-b395-4a7c-ac88-cbc90cd68152)
 
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/1fbc6b34-b395-4a7c-ac88-cbc90cd68152)
 
 
 1.6 Sprint 5
 
+I wrote code to test my application. I integrate this into my pipeline. The tests see if my authservice works properly and returns the appropiate codes when needed.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/6f807477-0a8c-4955-a1e5-232323963f84)
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/725077f0-0efe-4e92-a21d-e0dc02bc4867)
+
+
 
 I added a step to my pipeline to deploy to the cloud.
+
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/db291e28-6999-431d-b32e-a89b45106576)
 
 
-
 I also setup prometheus on my azure cluster for monitoring.
+
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/c45fe701-b1df-4d6e-b612-a8d825c5b865)
 
 
@@ -306,12 +297,9 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 
 1.1: Sprint 0
 
-
 1.2: Sprint 1
 
-
 1.3: Sprint 2
-
 
 I setup a RabbitMQ environment in the cloud and also setup a MongoDB in the cloud.
 
@@ -322,10 +310,20 @@ I setup a RabbitMQ environment in the cloud and also setup a MongoDB in the clou
 
 1.4: Sprint 3
 
-
 I am now automaticaly pushing images to dockerhub and have setup my account to get started with deploying to azure.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/d66b8308-a3f1-4b58-9656-400c8420760e)
+
+1.5: Sprint 4
+
+I attempted to run my microservices as images on dockerdesktop and on a local cluster using minikube but encountered problems with the dns.
+
+1.6: Sprint 5
+
+I have now setup my application in the cloud on Azure using AKS.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/39bdfc50-4e24-4318-bb7e-23d1ec26d76f)
+
 
 ### Learning Outcome 8 - Security by Design
 You investigate how to minimize security risks for your application, and you incorporate best practices in your whole software development process.
@@ -334,17 +332,32 @@ You investigate how to minimize security risks for your application, and you inc
 
 1.1: Sprint 0
 
-
 1.2: Sprint 1
-
 
 1.3: Sprint 2
 
-
 1.4: Sprint 3
 
-
 I created dockerhub secrets to create a pipeline that pushes images to a dockerhub repo. I also hid nearly all hard-coded credentials for databases and messaging platforms in .env files and setup my git pipeline to properly utilise these credentials with repo secrets and environment secrets.
+
+1.5: Sprint 4
+
+I am now hiding all credentials in secrets. I also installed sonarcloud and performed security analysis to find hotspots.
+
+1.6 Sprint 5
+
+I fixed security hotspots. I also made an OWASP document which can be found [here](). I also made my authentication service which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/tree/main/AuthService). This service works by using JWT tokens and hashed passwords.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/0b7782f5-d367-4c7c-bf37-896ac3f3d4d3)
+
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/59307eb2-3861-40d2-9ab0-11e842f4840f)
+
+I created an interceptor for my gateway which checks incoming requests and sees if they need to be validated. If it does it makes a request to the authservice validate endpoint and checks the token. If validation is succesful it passes the request to the appropiate handler.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/aed108ef-7ca3-4a6f-875f-8216a50d7d71)
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/e7a6c1c9-b48a-4329-a6ee-8878134ff4af)
 
 
 
