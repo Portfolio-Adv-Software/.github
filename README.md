@@ -271,7 +271,7 @@ I also added a sonarcloud code quality check.
 
 1.6 Sprint 5
 
-I wrote code to test my application. I integrate this into my pipeline. The tests see if my authservice works properly and returns the appropiate codes when needed.
+I wrote code to test my application. I integrated this into my pipeline. The tests see if my authservice works properly and returns the appropiate codes when needed.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/6f807477-0a8c-4955-a1e5-232323963f84)
 
