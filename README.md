@@ -37,6 +37,12 @@ I made a [document](https://github.com/S-A-RB05/.github/blob/main/profile/Techno
 1.4: Sprint 3
 I am thinking about how we can arrange the code in our group project to be easier to work on and to be better transferable to new teams. This involves ensuring proper decoupling of code.
 
+1.5 Sprint 4
+I worked on decoupling code and started thinking about our handover document
+
+1.6 Sprint 5
+I helped create the handover document for the group project with my team.
+
 
 
 
@@ -80,6 +86,11 @@ I have updated my plans a bit more and looked at more prospective internships an
 1.3 Sprint 3
 I have contacted multiple companies to ask for a meeting to explore the company culture and see if they are interesting places for me to be in the future. I have also started thinking about potential headhunters with whom I can build a professional relationship with.
 
+1.4 Sprint 4
+Not much happened this sprint, I found a few extra companies that I contacted.
+
+1.5 Sprint 5
+I have now scheduled multiple talks with companies during summer.
 
 
 
@@ -122,6 +133,11 @@ Our deliveries are going well and we are now showing more of our progress instea
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/0bef5017-cd52-4c6b-aeea-849ae69e4f89)
 
+1.5 Sprint 4
+Our sprints keep improving and we are moving to handover.
+
+1.6 Sprint 5
+Handover.
 
 # ===================================
 
@@ -150,9 +166,19 @@ I created a monorepo for my project with a UserService and TrendService. The two
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/b514f1a2-6285-4eaf-a0e5-a30bb210dfd5)
 
 1.4: Sprint 3
-I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I have also added a basic accountservice and gateway service which is still WIP. I plan to automaticaly deploy to an Azure kubernetes environment.
+I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I have also added a basic authservice and gateway service which is still WIP. I plan to automaticaly deploy to an Azure kubernetes environment.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/73a1cdd8-4bfa-41c0-a249-a377e75b98b4)
+
+1.5: Sprint 4
+I further implemented and refactored my gateway and authservice. the gateway is capable of handling grpc and http requests though http could use some more support. I do not consider further http support a priority at the moment however.
+
+1.6 Sprint 5
+I have deployed my application to the cloud! It is now running and accessible on Azure.
+I have made a resource mapping document which should substantiate some of my load testing. This document can be found [here]().
+I also did some loadtesting with Jmeter to test the scaling of the application, specifically the authservice.
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/ee424b5f-edb5-473d-9157-ac78b7f508e8)
+
 
 
 
@@ -180,6 +206,26 @@ Setup a pipeline to automaticaly build and push images to a dockerhub repo
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/73a1cdd8-4bfa-41c0-a249-a377e75b98b4)
 
+1.5 Sprint 4
+I added improved pipelines to my microservices. They now check specific subdirectories for changes and only that which has been changed. This is useful as I run a monorepo. 
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/12758bdb-0a17-41ca-a2c6-edc0609858c8)
+
+
+I can now manually trigger my gitactions. 
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/f51cbfc2-accc-44fc-925f-6eafde02735e)
+
+I also added a sonarcloud code quality check.
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/1fbc6b34-b395-4a7c-ac88-cbc90cd68152)
+
+
+1.6 Sprint 5
+
+I added a step to my pipeline to deploy to the cloud.
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/db291e28-6999-431d-b32e-a89b45106576)
+
+I also setup prometheus on my azure cluster for monitoring.
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/c45fe701-b1df-4d6e-b612-a8d825c5b865)
+
 
 
 ### Learning Outcome 7 - Cloud Services
@@ -188,7 +234,6 @@ You can explain what a cloud platform provider is and can deploy (parts of) your
 #### Substantiation
 
 1.1: Sprint 0
-
 
 1.2: Sprint 1
 
