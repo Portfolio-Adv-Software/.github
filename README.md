@@ -2,7 +2,7 @@
 # Koen Evers
 
 ## Introduction
-This is the reading guide to my portfolio. This is still a WIP. The aim of this document is to direct you to what I've done and explain why/what I made.
+This is the reading guide to my portfolio. The aim of this document is to direct you to what I've done and explain why/what I made.
 If there are any questions feel free to let me know through teams, canvas or let me know when I'm in Eindhoven.
 
 ### Group project - Stockbrood
@@ -33,7 +33,7 @@ This sprint I spent time orientating on which technologies fit and are suited fo
 1.2: Sprint 1
 
 
-I made a [C2 Diagram](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/C2%20Individueel.png) and created a demo for Angular and the use of grpc with protobuf. Furthermore I helped my team create userstories for Stockbrood.
+I made a [C2 Diagram](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Kwetter.drawio.png) and created a demo for Angular and the use of grpc with protobuf. Furthermore I helped my team create userstories for Stockbrood.
 
 1.3: Sprint 2
 
@@ -194,9 +194,7 @@ I spent time looking at which technologies to include into our techstack. I ende
 
 1.2: Sprint 1
 
-For my individual project I created a C2 model which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/C2%20Individueel.png). 
-I also spent some time working on a gRPC and Protobuf demo which can be found [here](TBD).
-Finally I made a small Angular demo to get used to this front-end. This can be found [here](TBD).
+For my individual project I created a C2 model which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Kwetter.drawio.png). 
 
 1.3: Sprint 2
 
@@ -219,7 +217,7 @@ I further implemented and refactored my gateway and authservice. the gateway is 
 1.6 Sprint 5
 
 I have deployed my application to the cloud! It is now running and accessible on Azure.
-I have made a resource mapping document which should substantiate some of my load testing. This document can be found [here]().
+I have made a resource mapping document which should substantiate some of my load testing. This document can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Resource%20Mapping.pdf).
 I also did some loadtesting with Jmeter to test the scaling of the application, specifically the authservice.
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/ee424b5f-edb5-473d-9157-ac78b7f508e8)
 
@@ -346,7 +344,7 @@ I am now hiding all credentials in secrets. I also installed sonarcloud and perf
 
 1.6 Sprint 5
 
-I fixed security hotspots. I also made an OWASP document which can be found [here](). I also made my authentication service which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/tree/main/AuthService). This service works by using JWT tokens and hashed passwords.
+I fixed security hotspots. I also made an OWASP document where I look at the top 10 security risks and see how they apply to my application, this can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Security.pdf). I also made my authentication service which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/tree/main/AuthService). This service works by using JWT tokens and hashed passwords.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/0b7782f5-d367-4c7c-bf37-896ac3f3d4d3)
 
@@ -359,6 +357,7 @@ I created an interceptor for my gateway which checks incoming requests and sees 
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/e7a6c1c9-b48a-4329-a6ee-8878134ff4af)
 
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/8805c27d-53c7-43a3-883a-3b7baeaa7aa8)
 
 
 ### Learning Outcome 9 – Distributed Data
@@ -374,13 +373,31 @@ You are aware of specific data requirements for enterprise systems. You apply be
 
 1.3: Sprint 2
 
-
 I have multiple microservices using grpc that have their own Mongodb, because of the microservice architecture I paid attention to what database needs to be stored in duplicate across different services. Some of these microservices can communicate with eachother through rabbitmq.
 
 1.4: Sprint 3
 
-
 I am looking into setting up a RabbitMQ queue to start a transaction which lets a User delete all of their data. To do so I am refactoring my gateway and datamodels.
+
+1.5: Sprint 4
+
+I made a GDPR required endpoint to be able to delete ALL user data, I do this by using RabbitMQ which sends a message on the queue to all relevant services to delete their data.
+
+1.6 Sprint 5
+
+I created [this](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Distributed%20Data.pdf) distributed data document in which I describe how the flow in some of my endpoints work and how the data gets handled. I also describe how I applied GDPR standards.
+
+The extra things I did for GDPR this sprint are:
+
+I now ask the user for permission to handle/store their data when they register.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/ea40b7a1-fe86-4502-bc94-dcd80482cadc)
+
+I made it so a user can ask to see what data my program has of them.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/70c37a04-7348-4c33-a81d-517e6268ad25)
+
+
 
 
 ## Reflection
