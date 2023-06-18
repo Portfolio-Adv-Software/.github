@@ -2,7 +2,7 @@
 # Koen Evers
 
 ## Introduction
-This is the reading guide to my portfolio. This is still a WIP. The aim of this document is to direct you to what I've done and explain why/what I made.
+This is the reading guide to my portfolio. The aim of this document is to direct you to what I've done and explain why/what I made.
 If there are any questions feel free to let me know through teams, canvas or let me know when I'm in Eindhoven.
 
 ### Group project - Stockbrood
