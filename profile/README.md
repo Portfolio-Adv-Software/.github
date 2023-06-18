@@ -405,9 +405,28 @@ Reflect here on your (study) process per sprint.
 Where are you getting stuck, what is going well, where do you need help. This is not about the content; you have described this in the learning outcomes. 
 
 ### Sprint 1
+
 Unfortunately I was sick for a fair bit during this sprint. Suffering from Migraines and either covid or a strong flu saw me miss out on quite a few days. To compound this I also put too much focus on the group project this sprint and struggled to find a good balance between individual and group project. This explains the weak progress this sprint and is also something to pay attention to for next sprint.
 
+### Sprint 2
+
+Things went a bit better this sprint. I made some progress with building basic servives and setting up docker. For next sprint I really need to get most of my code setup so I can start looking at cloudhosting.
+
+### Sprint 3
+
+I build quite a bit of code but I am struggling to move to the actual learning goals. I still need to fix my gateway and havent fully fixed my pipelines yet.
+
+### Sprint 4
+
+I managed to completely nearly everything except for deploying to the cloud. I am quite confident I will be able to do this just fine for next sprint.
+
+### Sprint 5
+
+I completed everything I set out for and showing my progress to my teachers they told me my outcomes were proficient. I am now on the cloud and have made extra documents to give additional info where needed.
 
 ## Conclusion
 Here, at the end of the semester, you reflect on your process and end result. You can also refer back to the goals you set in the introduction, to see to what extent you were able to achieve them. 
 Also mention what you are proud of, what you would like to do differently in the coming semesters and whether you have come to different insights about the field of study. Is there perhaps a particular subject you would like to explore further?
+
+Reflecting on my process I noticed I did struggle with maintaining oversight and ensuring my learning outcomes were central to what I was doing. I did a lot of detouring and arguably wasted a lot of time doing non-essential programming. I however did have fun and learned a lot by doing this.
+I am happy that I chose to not do the bare minimum or choose the easiest path when it comes to technology. Go and gRPC with protobuf was quite challenging but I managed to get to grips with it. To conclude: I learned a lot this semester, I challenged myself by picking technologies that were new and by trying a lot myself instead of delegating it to third parties. It was stressful but at the end I feel like I learned a lot.
