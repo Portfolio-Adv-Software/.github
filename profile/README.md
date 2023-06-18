@@ -73,7 +73,7 @@ This sprint I spent time orientating on which technologies fit and are suited fo
 1.2: Sprint 1
 
 
-I made a research plan that should be relevant to both my individual project and the group project. This plan can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/annotated-ResearchPlan-KoenEvers.pdf).
+I made a research plan that should be relevant to both my individual project and the group project. This plan can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/annotated-ResearchPlan-KoenEvers.pdf).
 
 1.3: Sprint 2
 
