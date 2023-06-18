@@ -33,7 +33,7 @@ This sprint I spent time orientating on which technologies fit and are suited fo
 1.2: Sprint 1
 
 
-I made a [C2 Diagram](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/C2%20Individueel.png) and created a demo for Angular and the use of grpc with protobuf. Furthermore I helped my team create userstories for Stockbrood.
+I made a [C2 Diagram](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Kwetter.drawio.png) and created a demo for Angular and the use of grpc with protobuf. Furthermore I helped my team create userstories for Stockbrood.
 
 1.3: Sprint 2
 
@@ -411,4 +411,3 @@ Unfortunately I was sick for a fair bit during this sprint. Suffering from Migra
 ## Conclusion
 Here, at the end of the semester, you reflect on your process and end result. You can also refer back to the goals you set in the introduction, to see to what extent you were able to achieve them. 
 Also mention what you are proud of, what you would like to do differently in the coming semesters and whether you have come to different insights about the field of study. Is there perhaps a particular subject you would like to explore further?
-
