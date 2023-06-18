@@ -344,7 +344,7 @@ I am now hiding all credentials in secrets. I also installed sonarcloud and perf
 
 1.6 Sprint 5
 
-I fixed security hotspots. I also made an OWASP document which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Security.pdf). I also made my authentication service which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/tree/main/AuthService). This service works by using JWT tokens and hashed passwords.
+I fixed security hotspots. I also made an OWASP document where I look at the top 10 security risks and see how they apply to my application, this can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Security.pdf). I also made my authentication service which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/tree/main/AuthService). This service works by using JWT tokens and hashed passwords.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/0b7782f5-d367-4c7c-bf37-896ac3f3d4d3)
 
@@ -373,13 +373,31 @@ You are aware of specific data requirements for enterprise systems. You apply be
 
 1.3: Sprint 2
 
-
 I have multiple microservices using grpc that have their own Mongodb, because of the microservice architecture I paid attention to what database needs to be stored in duplicate across different services. Some of these microservices can communicate with eachother through rabbitmq.
 
 1.4: Sprint 3
 
-
 I am looking into setting up a RabbitMQ queue to start a transaction which lets a User delete all of their data. To do so I am refactoring my gateway and datamodels.
+
+1.5: Sprint 4
+
+I made a GDPR required endpoint to be able to delete ALL user data, I do this by using RabbitMQ which sends a message on the queue to all relevant services to delete their data.
+
+1.6 Sprint 5
+
+I created [this](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Distributed%20Data.pdf) distributed data document in which I describe how the flow in some of my endpoints work and how the data gets handled. I also describe how I applied GDPR standards.
+
+The extra things I did for GDPR this sprint are:
+
+I now ask the user for permission to handle/store their data when they register.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/ea40b7a1-fe86-4502-bc94-dcd80482cadc)
+
+I made it so a user can ask to see what data my program has of them.
+
+![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/70c37a04-7348-4c33-a81d-517e6268ad25)
+
+
 
 
 ## Reflection
