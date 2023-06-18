@@ -26,15 +26,19 @@ You develop and deploy enterprise software, both individually and as a team, tha
 #### Substantiation
 
 1.1: Sprint 0
+
 This sprint I spent time orientating on which technologies fit and are suited for our specific enterprise needs. A lot of work went into the project plan and the general exploration of our group project's needs.
 
 1.2: Sprint 1
+
 I made a [C2 Diagram](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/C2%20Individueel.png) and created a demo for Angular and the use of grpc with protobuf. Furthermore I helped my team create userstories for Stockbrood.
 
 1.3: Sprint 2
+
 I made a [document](https://github.com/S-A-RB05/.github/blob/main/profile/Technology%20justification.md) with my group in which we justify the technological choices we made for our project. I am also deploying my services in the cloud and preparing them to be scalable.
 
 1.4: Sprint 3
+
 I am thinking about how we can arrange the code in our group project to be easier to work on and to be better transferable to new teams. This involves ensuring proper decoupling of code.
 
 
@@ -48,12 +52,15 @@ You deliver professional products according to planning, which is the result of 
 #### Substantiation
 
 1.1: Sprint 0
+
 This sprint I spent time orientating on which technologies fit and are suited for our specific enterprise needs. A lot of work went into the project plan and the general exploration of our group project's needs.
 
 1.2: Sprint 1
+
 I made a research plan that should be relevant to both my individual project and the group project. This plan can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/annotated-ResearchPlan-KoenEvers.pdf).
 
 1.3: Sprint 2
+
 I have been gathering knowledge on my research project. and hope to conclude it in sprint 3 or 4. I also researched what the tech stack for my group project should look like and substantiated why in this [document](https://github.com/S-A-RB05/.github/blob/main/profile/Technology%20justification.md)
 
 
@@ -66,12 +73,15 @@ You acquire skills required for your future career. You are aware of multiple ca
 #### Substantiation
 
 1.1: Sprint 1
+
 I am looking into locations for graduation internships at the moment and have already written to multiple companies. More details will be in [this document](https://github.com/Portfolio-Adv-Software/.github/blob/main/Personal%20Leadership.md) which should help to support this learning outcome.
 
 1.2: Sprint 2
+
 I have updated my plans a bit more and looked at more prospective internships and future career paths.
 
 1.3 Sprint 3
+
 I have contacted multiple companies to ask for a meeting to explore the company culture and see if they are interesting places for me to be in the future. I have also started thinking about potential headhunters with whom I can build a professional relationship with.
 
 
@@ -93,6 +103,7 @@ You use appropriate communication considering your role in a team, your audience
 #### Substantiation
 
 1.1: Sprint 0
+
 We do stand ups to inform eachother what we did and will be working on. We also created a Jira board with userstories that have story points assigned to them which are based off of the planning poker session we did as a group.
 Finally we made a group contract so that we have a fallback document for when normal cooperation is no longer possible.
 
@@ -101,6 +112,7 @@ We also ended our sprint with peer feedback.
 
 
 1.2: Sprint 1
+
 We improved our standups with feedback from our semestercoach. We updated the userstories on our Jira board based on our stakeholder feedback.
 We made sure to create tasks for our userstories and keep them updated during the sprint.
 
@@ -109,9 +121,11 @@ We made sure to create tasks for our userstories and keep them updated during th
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/e4aa1525-5644-4f08-b14c-363e1b25b88c)
 
 1.3: Sprint 2
+
 We improved our deliveries to the stakeholder by clearly showing what we worked on, what was completed and what was not done yet and why.
 
 1.4: Sprint 3
+
 Our deliveries are going well and we are now showing more of our progress instead of just telling about our progress.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/0bef5017-cd52-4c6b-aeea-849ae69e4f89)
@@ -133,12 +147,15 @@ Beginning
 #### Substantiation
 
 1.1: Sprint 0
+
 I spent time looking at which technologies to include into our techstack. I ended up proposing Go, gRPC and RabbitMQ as some of our significant technologies. I am currently working on a document to justify these choices.
 
 1.2: Sprint 1
-For my individual project I created a C2 model which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/Documentation/C2%20Individueel.png). 
+
+For my individual project I created a C2 model which can be found [here](https://github.com/Portfolio-Adv-Software/Kwetter/blob/main/.Documentation/Kwetter.drawio.png). 
 
 1.3: Sprint 2
+
 I created a monorepo for my project with a TweetService and TrendService. The two services can communicate with eachother through RabbitMQ with protobuf messages, these messages are in a binary format and are very quickly encoded and decoded which is great for microservices. The two services use MongoDB as their datastore. MongoDB and RabbitMQ are already online and hosted in the cloud.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/e484d3a7-1343-4b09-acaa-d86dfece4f66)
@@ -146,6 +163,7 @@ I created a monorepo for my project with a TweetService and TrendService. The tw
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/b514f1a2-6285-4eaf-a0e5-a30bb210dfd5)
 
 1.4: Sprint 3
+
 I added a AccountService, initial Gateway and AuthService to my project.
 I have created Dockerfiles for my services and setup a pipeline on github to automaticaly build and push these images to a dockerhub repo. I plan to automaticaly deploy to an Azure kubernetes environment.
 
@@ -166,16 +184,20 @@ Beginning
 #### Substantiation
 
 1.1: Sprint 0
+
 Did not do much for DevOps yet.
 
 1.2: Sprint 1
+
 Helped group with setting up ci/cd
 
 1.3: Sprint 2
+
 Created Dockerfile.
 I have also setup SonarCloud to do code quality testing.
 
 1.4: Sprint 3
+
 Setup a pipeline to automaticaly build and push images to a dockerhub repo
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/99a3b058-4cdd-4e7d-8315-518e0a7720a9)
@@ -198,7 +220,9 @@ Beginning
 
 1.2: Sprint 1
 
+
 1.3: Sprint 2
+
 I setup a RabbitMQ environment in the cloud and also setup a MongoDB in the cloud.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/87cade00-9a56-437f-b773-ee88b2c3d0ed)
@@ -207,6 +231,7 @@ I setup a RabbitMQ environment in the cloud and also setup a MongoDB in the clou
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/79c51c45-ed7c-48c0-a9b5-5abf55fe93e3)
 
 1.4: Sprint 3
+
 I am now automaticaly pushing images to dockerhub and have setup my account to get started with deploying to azure.
 
 ![image](https://github.com/Portfolio-Adv-Software/.github/assets/78910809/d66b8308-a3f1-4b58-9656-400c8420760e)
@@ -246,9 +271,11 @@ Beginning
 1.2: Sprint 1
 
 1.3: Sprint 2
+
 I have multiple microservices using grpc that have their own Mongodb, because of the microservice architecture I paid attention to what database needs to be stored in duplicate across different services. Some of these microservices can communicate with eachother through rabbitmq.
 
 1.4: Sprint 3
+
 I am looking into setting up a RabbitMQ queue to start a transaction which lets a User delete all of their data. To do so I am refactoring my gateway and datamodels.
 
 
